@@ -1,0 +1,32 @@
+.MemberRow__info {
+  padding-top: 8px;
+  margin-top: 16px;
+}
+.MemberRow__container {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  flex-direction: row;
+}
+.MemberRow__activityButton {
+  background-color: #3399ff;
+  color: white;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.MemberRow__cancelButton {
+  background-color: white;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  cursor: pointer;
+}
